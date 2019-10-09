@@ -1,0 +1,15 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "yelpcamp is an application made in The Web Developer Bootcamp by Colt Steele.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daesun Pak",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
