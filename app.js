@@ -25,7 +25,7 @@ app.get("/campgrounds", function(req, res){
             image: "https://cdn.pixabay.com/photo/2017/08/17/08/08/camp-2650359_960_720.jpg"
         }
     ]
-    res.render("campgrounds")
+    res.render("campgrounds", {camgrounds: campgrounds})
 })
 
 app.listen(port, function(){

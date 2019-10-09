@@ -1,5 +1,14 @@
 <% include partials/header.ejs %>
 
-<h1>This will be the place where all the campgrounds will be listed.</h1>
+<h1>Campgrounds</h1>
+
+<a href="/">Back to homepage.</a>
+
+<% camgrounds.forEach(function(camp){ %>
+    <h1>
+        <%= camp.name %>
+    </h1>
+    <img src="<%= camp.image %>" alt="camp image">
+<% }) %>
 
 <% include partials/footer.ejs %>
